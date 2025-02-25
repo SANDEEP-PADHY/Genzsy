@@ -1,8 +1,9 @@
  /* CSS Variables for reusable values */
  :root {
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
-    --ascent-color: #ff7300;
+    --primary-color: #0d0d0d;
+    --secondary-color: #e1e1e1;
+    --card-color: #141414;
+    --ascent-color: #259fde;
     --font-primary: 'Lemon', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
     --header-height: 80px;
@@ -26,6 +27,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--secondary-color);
 }
 .nav {
     color: var(--Primary-color);
