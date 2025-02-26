@@ -8,7 +8,6 @@
     width: 100%;
     padding-top: var(--header-height);
 }
-
 .hero-container {
     display: flex;
     justify-content: center;
@@ -17,7 +16,6 @@
     padding: 3%;
     background-color: var(--secondary-color);
 }
-
 .hero-container img {
     max-width: 100%;
     max-height: 80dvh;
@@ -25,13 +23,11 @@
     margin: auto;
     border-radius: 10px;
 }
-
 /* Section Divider */
 .divider {
     border: var(--primary-color) 1px solid;
     width: 94%;
 }
-
 /* Discount & New Launch Sections */
 .discount,
 .new-launch {
@@ -40,4 +36,37 @@
     align-items: center;
     flex-direction: column;
     height: 100vmin;
+}
+/* Centering Button Grid */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 220px;
+    text-align: center;
+}
+/* Button Styling */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+/* Click Animation */
+.btn:active {
+    transform: scale(0.9);
+    background-color: var(--ascent-color)
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
